@@ -1,0 +1,101 @@
+{
+   "suites":[
+      {
+         "id":5,
+         "title":"Login form.",
+         "description":null,
+         "preconditions":null,
+         "suites":[
+            
+         ],
+         "cases":[
+            {
+               "id":7,
+               "title":"Login with Facebook",
+               "description":"Login with activ Facebook profile.",
+               "preconditions":"The user has to have an active profile Facebook. The home page of the site teodor.bg loads successfully. The profile icon on the top right corner is existed and is an active button.",
+               "postconditions":"The user has a successful registration with a personal Facebook profile.",
+               "priority":"high",
+               "severity":"normal",
+               "behavior":"positive",
+               "type":"usability",
+               "automation":"is-not-automated",
+               "status":"actual",
+               "milestone":null,
+               "custom_fields":[
+                  
+               ],
+               "steps":[
+                  {
+                     "position":1,
+                     "action":"Click the profile icon on the top right corner.",
+                     "expected_result":"Load successfully registration form with activ Facebook icon.",
+                     "data":""
+                  },
+                  {
+                     "position":2,
+                     "action":"Click the Facebook icon.",
+                     "expected_result":"```\nPreview of a new window with an active button allowing to continue as a personal Facebook user.\n```",
+                     "data":""
+                  },
+                  {
+                     "position":3,
+                     "action":"Click the active button allowing you to continue as a personal Facebook user.",
+                     "expected_result":"```\nPreview of a new window with information for manage of personal date, some text with 3 option that we have to click (check): general terms, requirement for reaching the age of 16, agreement with the data privacy policy. \u0410ctiv button  for agree with this terms.\n```",
+                     "data":""
+                  },
+                  {
+                     "position":4,
+                     "action":"Click the 3 of activ button and click the main button with signature \u201c\u041f\u0420\u041e\u0427\u0415\u0422\u041e\u0425 \u0418 \u0421\u0415 \u0421\u042a\u0413\u041b\u0410\u0421\u042f\u0412\u0410\u041c\u201d.",
+                     "expected_result":"The user has a successful registration with a personal Facebook profile.",
+                     "data":""
+                  }
+               ]
+            },
+            {
+               "id":8,
+               "title":"Login with Google account.",
+               "description":"Login with activ Google account.",
+               "preconditions":"The user has to have an active Google account. The home page of the site teodor.bg loads successfully. The profile icon on the top right corner is existed and is an active button.",
+               "postconditions":"The user has a successful registration with a personal Google account.",
+               "priority":"high",
+               "severity":"normal",
+               "behavior":"positive",
+               "type":"usability",
+               "automation":"is-not-automated",
+               "status":"actual",
+               "milestone":null,
+               "custom_fields":[
+                  
+               ],
+               "steps":[
+                  {
+                     "position":1,
+                     "action":"Click the profile icon on the top right corner.",
+                     "expected_result":"Load option for registration with a Google account.",
+                     "data":""
+                  },
+                  {
+                     "position":2,
+                     "action":"Click the Google account icon.",
+                     "expected_result":"```\nPreview of a new window with an active button allowing to continue with personal Google account.\n```",
+                     "data":""
+                  },
+                  {
+                     "position":3,
+                     "action":"Click the active button allowing you to continue with your personal Google account.",
+                     "expected_result":"```\nPreview of a new window with information for manage of personal date, some text with 3 option that we have to click (check): general terms, requirement for reaching the age of 16, agreement with the data privacy policy. \u0410ctiv button  for agree with this terms.\n```",
+                     "data":""
+                  },
+                  {
+                     "position":4,
+                     "action":"Click the 3 of activ button and click the main button with signature \u201c\u041f\u0420\u041e\u0427\u0415\u0422\u041e\u0425 \u0418 \u0421\u0415 \u0421\u042a\u0413\u041b\u0410\u0421\u042f\u0412\u0410\u041c\u201d.",
+                     "expected_result":"The user has a successful registration with a personal Google account.",
+                     "data":""
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
