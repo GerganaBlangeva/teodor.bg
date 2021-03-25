@@ -1,0 +1,71 @@
+{
+   "suites":[
+      {
+         "id":6,
+         "title":"Cart",
+         "description":null,
+         "preconditions":null,
+         "suites":[
+            
+         ],
+         "cases":[
+            {
+               "id":9,
+               "title":"Add to Cart",
+               "description":"Testing added to the cart with some products from the products section with a discount.",
+               "preconditions":"The home page loads succsseffuly. The user chooses some options from the drop-down menu with a discount product.",
+               "postconditions":null,
+               "priority":"high",
+               "severity":"critical",
+               "behavior":"positive",
+               "type":"functional",
+               "automation":"is-not-automated",
+               "status":"actual",
+               "milestone":null,
+               "custom_fields":[
+                  
+               ],
+               "steps":[
+                  {
+                     "position":1,
+                     "action":"Chose different products whit color and size and  click the button \u201c\u0414\u041e\u0411\u0410\u0412\u0418\u201c",
+                     "expected_result":"All chosen products are added to the cart successfully.",
+                     "data":""
+                  }
+               ]
+            },
+            {
+               "id":10,
+               "title":"Delete",
+               "description":"Delete some products from the cart.",
+               "preconditions":"There are added products in the cart.",
+               "postconditions":null,
+               "priority":"high",
+               "severity":"major",
+               "behavior":"positive",
+               "type":"functional",
+               "automation":"is-not-automated",
+               "status":"actual",
+               "milestone":null,
+               "custom_fields":[
+                  
+               ],
+               "steps":[
+                  {
+                     "position":1,
+                     "action":"Click on the icon Cart.",
+                     "expected_result":"The cart is displayed on the screen with the selected products.",
+                     "data":""
+                  },
+                  {
+                     "position":2,
+                     "action":"Choose some product and click the delete button which is located to the price of the product.",
+                     "expected_result":"The chosen product is deleted successfully from the cart.",
+                     "data":""
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
